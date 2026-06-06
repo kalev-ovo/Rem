@@ -1,0 +1,59 @@
+name: chat_yui
+description: AI 聊天应用 - 雷姆风格，Agnes AI 驱动
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # 状态管理
+  flutter_riverpod: ^2.5.1
+  # HTTP & SSE 流
+  dio: ^5.4.3+1
+  # 本地数据库
+  sqflite: ^2.3.3+2
+  path: ^1.9.0
+  # 路由
+  go_router: ^14.2.7
+  # Markdown 渲染
+  flutter_markdown: ^0.7.3+2
+  # 图片选择
+  image_picker: ^1.1.2
+  # 环境变量
+  flutter_dotenv: ^5.1.0
+  # 工具
+  intl: ^0.20.2
+  uuid: ^4.4.2
+  path_provider: ^2.1.4
+  shared_preferences: ^2.3.4
+  share_plus: ^10.1.4
+  speech_to_text: ^7.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  mockito: ^5.4.4
+  build_runner: ^2.4.13
+  image: ^4.5.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/images/
+    - assets/images/rem_wallpapers/01_avatars/
+    - assets/images/rem_wallpapers/02_splash/
+    - assets/images/rem_wallpapers/03_welcome/
+    - assets/images/rem_wallpapers/04_drawer/04a_banner/
+    - assets/images/rem_wallpapers/04_drawer/04b_wide/
+    - assets/images/rem_wallpapers/04_drawer/04c_standard/
+  # fonts:
+  #   - family: RemRounded
+  #     fonts:
+  #       - asset: assets/fonts/KosugiMaru-Regular.ttf

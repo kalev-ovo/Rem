@@ -1,0 +1,45 @@
+# ——— Flutter / Dart ———
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+
+# ——— IDE ———
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# ——— Android ———
+android/app/build/
+android/.gradle/
+android/local.properties
+*.jks
+*.keystore
+android/.kotlin/
+
+# ——— iOS ———
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Generated.xcconfig
+
+# ——— macOS ———
+macos/Pods/
+macos/.symlinks/
+
+# ——— Web ———
+.dart_tool/build/
+.web/
+
+# ——— Env (只忽略真实密钥，保留 .env.example) ———
+.env
+
+# ——— OS ———
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
