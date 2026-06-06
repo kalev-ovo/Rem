@@ -1,7 +1,7 @@
 # Rem — 雷姆主题 AI 聊天应用
 
 <p align="center">
-  <img src="assets/images/app_icon.jpeg" width="120" alt="App Icon"/>
+  <img src="assets/images/rem_wallpapers/icon.jpg" width="120" alt="App Icon"/>
 </p>
 
 基于 Flutter 构建、[Agnes AI](https://agnes-ai.com) 驱动的移动端 AI 聊天应用，以《Re:从零开始的异世界生活》中雷姆为主题。
