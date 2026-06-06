@@ -6,7 +6,7 @@
 
 基于 Flutter 构建、[Agnes AI](https://agnes-ai.com) 驱动的移动端 AI 聊天应用，以《Re:从零开始的异世界生活》中雷姆为主题。
 
-> 「昴君，雷姆一直在等你。」
+> 「ゼロから始めましょう。いいえ、ゼロから――始めるんです。」
 
 ## ✨ 功能
 
@@ -20,9 +20,9 @@
 
 ## 📸 截图
 
-| 开屏 | 首页 | 聊天 |
+| 欢迎页 | 首页 | 聊天 |
 |:---:|:---:|:---:|
-| <img src="assets/images/splash_bg.jpg" width="200"/> | 待补充 | 待补充 |
+| <img src="screenshoot/欢迎页.jpg" width="200"/> | <img src="screenshoot/首页.jpg" width="200"/> | <img src="screenshoot/聊天.jpg" width="200"/> |
 
 ## 🛠 技术栈
 
