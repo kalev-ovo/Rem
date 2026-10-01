@@ -85,11 +85,14 @@ class AgnesClient {
         ),
       );
 
-      final rawStream = response.data.stream;
+      final rawStream = response.data.stream as Stream<List<int>>;
+      // UTF-8 字符可能跨网络分片，使用增量解码保留未完成的字节。
+      final textStream = rawStream.cast<List<int>>().transform(
+        const Utf8Decoder(allowMalformed: true),
+      );
       String buffer = '';
 
-      await for (final chunk in rawStream) {
-        final text = utf8.decode(chunk, allowMalformed: true);
+      await for (final text in textStream) {
         buffer += text;
 
         // 按行分割处理
